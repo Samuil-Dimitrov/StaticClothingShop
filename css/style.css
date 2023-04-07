@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bakbak+One&display=swap');
+/*rbg 71,109,158,
+ a9dce3, 7389de*/
+body{
+    background-color: #4d3d8f;
+    text-align: center;
+}
+#navbarSupportedContent{
+    text-align: left;
+}
+
+/* NAVBAR */
+/* regular 400 */
+.navbar-brand{
+    font-family: 'Bakbak One',cursive;
+    font-size: 25px;
+}
+
+.nav-link{
+    font-family: 'Bakbak One',cursive;
+}
+
+.style-bar-items{
+    padding:0px 10px;
+}
+
+.style-bar-items:hover{
+    background-color: rgb(148, 64, 148);
+    border-radius: 10px;
+}
+.heart:hover{
+    color:red;
+}
+
+/* color:  02ce95;*/
+#register-login{
+    color:rgb(85, 221, 85);
+}
+
+.newsletter-class{
+    padding:40px 0 45px;
+}
+
+.modal-login-register{
+    background-color: #7389de;
+}
+
+#features {
+    background-color: #7389de;
+    position: relative;
+  }
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.products-start-page{
+    background-color: #7389de;
+    margin-top: 1px;
+}
+
+
+.custom-icon {
+    color:#21dda8;
+    margin-bottom: 1rem;
+}
+
+.custom-icon:hover{
+    color:#02ce95;
+}
+.container-fluid{
+    padding: 5% 15% 2%;
+}
+
+
+/* Footer */
+
+.footer-heading{
+    font-family: 'Bakbak One',cursive;
+    font-size: 25px;
+}
+.footer-links{
+    padding:0px 20px;
+}
+.footer-links:hover{
+    background-color: rgb(148, 64, 148);
+    border-radius: 10px;
+}
+
+.help-emoticon{
+    margin-left: 5px;
+}
+
+.search-label{
+    padding: 0px;
+    padding-left: 5px;
+}
+
+.search-width{
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.checkbox-spacing{
+    margin-left:5px ;
+}
+
+.dropdown-single{
+    background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+    font-weight: bold;
+}
+
+.dropdown-button{
+    display: inline-block;
+}
+
+
+.btn-hover {
+    width: 110px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: rgb(85, 221, 85);
+    border-radius: 50%;
+  }
+
+  /* .embed-responsive-100x400px{
+    padding-bottom: 400px;
+  } */
+
+  .heading-top{
+      margin: 50px 0px;
+      /* font-size: 40px; */
+      color:white ;
+      font-family: 'Bakbak One',cursive;
+  }
+  
+  a{
+      text-decoration: inherit;
+      color:inherit;
+  }
+
+  a:hover{
+      color:black;
+  }
+
+  /*PRODUCT PAGE*/
+  .image-product{
+      display:inline-block;
+     position:relative;
+     right:30%;
+     width:95%;
+  }
+
+  .description-composition{
+      margin-top:200px;
+      margin-right:450px;
+      color: white;
+  }
